@@ -1,0 +1,15 @@
+.button {
+  padding: 4px 8px;
+  border: none;
+  border-radius: 5px;
+  transition: opacity 0.3s ease-in;
+  background-color: transparent;
+  color: #212529;
+  &:hover {
+    cursor: pointer;
+    opacity: 0.8;
+  }
+  &.active {
+    outline: 1px solid #da91e1;
+  }
+}

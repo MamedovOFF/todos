@@ -1,0 +1,15 @@
+.form {
+  display: flex;
+  align-items: center;
+  .arrow {
+    border: solid black;
+    border-width: 0 2px 2px 0;
+    display: block;
+    padding: 4px;
+    transition: 300ms;
+    transform: rotate(45deg);
+    &.open {
+      transform: rotate(-135deg);
+    }
+  }
+}
